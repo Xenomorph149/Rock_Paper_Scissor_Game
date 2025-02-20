@@ -1,7 +1,7 @@
 function simulation(input){
     //reading inputs etc..
     document.getElementById("result").innerHTML="";
-    let generated_random_number=Math.floor(Math.random()*2);
+    let generated_random_number=Math.floor(Math.random()*3);
     let player_current_score=Number(document.getElementById("psco").innerHTML);
     let computer_score=Number(document.getElementById("csco").innerHTML);
     //if else conditions to check who had won the current turn
