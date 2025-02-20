@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset align="center">
+        Rock Paper Scissors
+    </fieldset>
+    <!-- details section -->
+    Details
+    <ul type="square">
+        <li>First player to win 5 rounds wins the game</li>
+        <li>Rock wins against Scissor</li>
+        <li> Scissor wins against Paper</li>
+        <li> Paper wins against Rock</li>
+    </ul>
+    <!-- fieldset for game interface -->
+    <fieldset>
+        <b>GAME</b> <br>Your move<br>
+        <button id="rk" onclick="simulation(0)">🪨ROCK</button>
+        <br>
+        <button id="pr" onclick="simulation(1)">📄PAPER</button>
+        <br>
+        <button id="sc" onclick="simulation(2)">✂︎SCISSOR</button>
+        <br>
+        Computer's move:<br>
+        <p id="cmo"></p>
+        Your Score: <p id="psco">0</p><br>
+        Computer Score: <p id="csco">0</p><br>
+        <h3 id="result" ></h3>
+        <button type="reset" onclick="resetScore()">Reset game</button>
+    </fieldset>
+    <script src="app.js"></script>
+</body>
+</html>
