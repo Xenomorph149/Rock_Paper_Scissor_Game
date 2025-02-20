@@ -28,15 +28,5 @@ A simple **Rock, Paper, Scissors** game built with JavaScript! Play against the 
    ## 🌟 Future Improvements  
 
 ### 🔊 Add Sound Effects  
-You can add sound effects when the player makes a choice or when the result is displayed.  
-
-```javascript
-const winSound = new Audio('win.mp3');  
-const loseSound = new Audio('lose.mp3');  
-const drawSound = new Audio('draw.mp3');  
-
-function playSound(result) {  
-    if (result === 'win') winSound.play();  
-    else if (result === 'lose') loseSound.play();  
-    else drawSound.play();  
-}
+### 🏆 Leaderboard
+### 👥 Multiplayer mode
